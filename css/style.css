@@ -79,9 +79,15 @@
 
 .banner {
     background-color: #F8FAFF;
-    padding-top: 88px;
+    padding: 88px 0 0 0 ;
 }
-
+.banner-img{
+    padding-top: 70px;
+    width: 100%;
+}
+.banner-img img{
+    width: 100%;
+}
 
 /* Key frames */
 
