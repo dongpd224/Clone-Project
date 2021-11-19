@@ -1,5 +1,6 @@
 :root {
     --primary-color: #007bff;
+    --blue-color: #0b5be0;
     --white-color: #fff;
 }
 
@@ -170,6 +171,7 @@
 .section-heading{
     margin-bottom: 50px;
 }
+/* Service */
 .service-item{
     padding: 30px;
     width: 100%;
@@ -182,4 +184,19 @@
 }
 .service-img img{
     width: 85%;
+}
+/* About */
+.about-process{
+    margin-right: 30px;
+}
+.about-process .about-process__number{
+    width: 50px;
+    height: 50px;
+    background: #0b5be0;
+    color: #fff;
+    border-radius: 100%;
+    display: inline-block;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 10px;
 }
