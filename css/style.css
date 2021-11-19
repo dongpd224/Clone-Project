@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #007bff;
+    --primary-color: #0b5be0;
     --blue-color: #0b5be0;
     --white-color: #fff;
 }
@@ -166,7 +166,7 @@
     background: var(--white-color);
 }
 .section{
-    padding-top: 120px;
+    padding : 120px 0;
 }
 .section-heading{
     margin-bottom: 50px;
@@ -199,4 +199,11 @@
     text-align: center;
     font-weight: 600;
     padding-top: 10px;
+}
+.contact{
+    background-color: var(--primary-color);
+    padding: 48px 16px;
+}
+.contact-info__icon{
+    line-height:  2.5rem
 }
