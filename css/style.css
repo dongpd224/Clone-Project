@@ -80,7 +80,7 @@
 /* Banner */
 .banner {
     background-color: #F8FAFF;
-    padding: 88px 0 0 0 ;
+    padding: 88px 0 130px 0 ;
 }
 .banner-img{
     padding-top: 70px;
@@ -114,6 +114,21 @@
     text-transform: capitalize;
     padding: 0.85rem 2rem;
     border-radius: 50px;
+}
+.banner__btn-text{
+    font-size: 1.1rem;
+    margin-right: 1rem;
+}
+/* Feature */
+.feature{
+    position:absolute;
+    top: 90%;
+    width: 100%;
+}
+.feature-item{
+    background-color: var(--white-color);
+    border-radius: 12px;
+    box-shadow: 0px 0px 12px 2px rgb(0 0 0 / 2%), -2px 2px 5px 1px rgb(0 0 0 / 2%);
 }
 /* Key frames */
 
