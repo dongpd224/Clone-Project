@@ -76,19 +76,54 @@
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+<<<<<<< HEAD
 
+=======
+/* Banner */
+>>>>>>> c65c00784cc524c5587db747d023418cacf27176
 .banner {
     background-color: #F8FAFF;
     padding: 88px 0 0 0 ;
 }
 .banner-img{
     padding-top: 70px;
+<<<<<<< HEAD
+=======
+}
+.banner-content{
+    padding-top: 100px;
+>>>>>>> c65c00784cc524c5587db747d023418cacf27176
     width: 100%;
 }
 .banner-img img{
     width: 100%;
 }
+<<<<<<< HEAD
 
+=======
+.section-subtitle{
+    font-size: 14px;
+    padding: 0.5rem 1rem;
+    color: #222;
+    border-radius: 25px;
+    background-color: rgba(121, 110, 255, 0.1);
+}
+.banner-title{
+    font-weight: 700;
+    margin-top: 45px;
+}
+.banner-content p {
+    margin-bottom: 40px;
+}
+.btn{
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+    text-transform: capitalize;
+    padding: 0.85rem 2rem;
+    border-radius: 50px;
+}
+>>>>>>> c65c00784cc524c5587db747d023418cacf27176
 /* Key frames */
 
 @keyframes smooth-slide {
