@@ -2,6 +2,7 @@
     --primary-color: #0b5be0;
     --blue-color: #0b5be0;
     --white-color: #fff;
+    --border-radius-items: 12px; 
 }
 
 .nav__link {
@@ -129,7 +130,7 @@
 .feature-item{
     background-color: var(--white-color);
     overflow: hidden;
-    border-radius: 12px;
+    border-radius: var(--border-radius-items);
     box-shadow: 0px 0px 12px 2px rgb(0 0 0 / 2%), -2px 2px 5px 1px rgb(0 0 0 / 2%);
 }
 .feature-item h4{
@@ -166,7 +167,7 @@
     background: var(--white-color);
 }
 .section{
-    padding : 120px 0;
+    padding-bottom : 120px;
 }
 .section-heading{
     margin-bottom: 50px;
@@ -176,7 +177,7 @@
     padding: 30px;
     width: 100%;
     border: 1px solid rgb(0 0 0 / 3%);
-    border-radius: 12px;
+    border-radius: var(--border-radius-items);
     margin-bottom: 15px;
 }
 .service-item:hover{
@@ -207,3 +208,37 @@
 .contact-info__icon{
     line-height:  2.5rem
 }
+/* Pricing */
+.pricing-item{
+    padding: 48px;
+    border: 1px solid rgb(0 0 0 / 3%);
+    border-radius: var(--border-radius-items);
+    box-shadow: 0px 0px 32px 24px rgb(0 0 0 / 1%), -2px 2px 5px 1px rgb(0 0 0 / 2%);
+}
+.pricing-item:hover{
+    border-color: #0b5be0;
+}
+.pricing-item__price{
+    font-size: 4.2rem;
+}
+.pricing-item__feature-list{
+    list-style: none;
+    padding: 0; 
+    color:rgb(112, 112, 112)
+}
+.pricing-item__feature-item{
+    padding: 5px 0;
+    font-size: 1.1rem;
+}
+.pricing-item__feature-item i{
+    margin-right: 8px;
+}
+.btn-popular{
+    background-color: #796eff;
+    border-color: #796eff;
+    color: var(--white-color)
+}
+.item-popular:hover .btn-popular{
+    background-color: var(--primary-color)
+}
+
